@@ -14,7 +14,7 @@ class FrontendDeveloper(SoftwareEngineer):
 
     def create_awesome_web_page(self) -> str:
         print(f"{self.name} is creating a webpage...")
-        return "<h1>Hello world!</h1>"
+        return "<h1>Hello world</h1>"
 
 
 class BackendDeveloper(SoftwareEngineer):
@@ -35,6 +35,7 @@ class AndroidDeveloper(SoftwareEngineer):
     def create_smooth_mobile_app(self) -> str:
         print(f"{self.name} is creating a mobile app...")
         return "Ads every three swipes"
+
 
 class FullStackDeveloper(FrontendDeveloper,
                          BackendDeveloper):
